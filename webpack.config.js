@@ -1,16 +1,3 @@
-/*
-module.exports = {
-    entry: "./js/app.js",
-    output: {
-        path: __dirname+'/js',
-        filename: "bundle.js"
-    },
-    externals: {
-        "react": "React",
-        "react-dom": "ReactDOM",
-    }
-};
-*/
 module.exports = {
     entry: "./src/app.tsx",
     output: {
@@ -35,5 +22,10 @@ module.exports = {
             // All output '.js' files will have any sourcemaps re-processed by 'source-map-loader'.
             { test: /\.js$/, loader: "source-map-loader" }
         ]
+    },
+    
+    externals: {
+        "react": "React",
+        "react-dom": "ReactDOM",
     }
 };

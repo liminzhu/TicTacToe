@@ -3,7 +3,6 @@
         "jsx": "react",
         "outDir": "./dist",
         "sourceMap": true,
-
         "module": "commonjs",
         "target": "es3",
         "rootDir": "."
