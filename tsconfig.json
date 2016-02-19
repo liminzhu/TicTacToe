@@ -1,12 +1,20 @@
 {
     "compilerOptions": {
-        "target": "es5",
         "jsx": "react",
-        "module": "commonjs"
+        "outDir": "./dist",
+        "sourceMap": true,
+
+        "module": "commonjs",
+        "target": "es3",
+        "rootDir": "."
     },
+    "exclude": [
+        "node_modules"
+    ],
     "files": [
-        "js/app.tsx",
-        "js/board.tsx",
-        "js/constants.ts"
+        "./typings/main.d.ts",
+        "./src/app.tsx",
+        "./src/board.tsx",
+        "./src/constants.ts"
     ]
 }

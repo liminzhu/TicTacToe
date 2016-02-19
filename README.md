@@ -5,8 +5,7 @@ A game example built using [TypeScript](https://github.com/Microsoft/TypeScript)
 ## Build
 Everything is prebuilt, but in case you want to make changes and rebuild.
 ```
-npm install -g TypeScript webpack
-tsc
+npm install -g typescript typings webpack
 webpack
 ```
 
