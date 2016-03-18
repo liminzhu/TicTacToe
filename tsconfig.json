@@ -3,9 +3,9 @@
         "jsx": "react",
         "outDir": "./dist",
         "sourceMap": true,
+        "noImplicitAny": true,
         "module": "commonjs",
-        "target": "es3",
-        "rootDir": "."
+        "target": "es5"
     },
     "exclude": [
         "node_modules"
@@ -14,6 +14,8 @@
         "./typings/main.d.ts",
         "./src/app.tsx",
         "./src/board.tsx",
-        "./src/constants.ts"
+        "./src/constants.ts",
+        "./src/gameStateBar.tsx",
+        "./src/restartBtn.tsx"
     ]
 }

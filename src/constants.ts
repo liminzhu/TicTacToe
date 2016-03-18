@@ -1,6 +1,4 @@
-enum CellValue {X, O, Empty};
-enum GameState {Running, X_Win, O_Win, Draw};
-const playerCell = CellValue.X;
-const aiCell = CellValue.O;
-
-export { CellValue, GameState, playerCell, aiCell }; 
+export type GameState = "" | "X Wins!" | "O Wins!" | "Draw";
+export type CellValue = "" | "X" | "O";
+export const playerCell: CellValue = "X";
+export const aiCell: CellValue = "O";

@@ -1,11 +1,12 @@
 # Tic Tac Toe with TypeScript & React
 
-A game example built using [TypeScript](https://github.com/Microsoft/TypeScript) and [React](https://github.com/facebook/react). 
+A game example built using [TypeScript](https://github.com/Microsoft/TypeScript) and [React](https://github.com/facebook/react), following guidelines from [react-webpack guide](https://github.com/Microsoft/TypeScript-Handbook/blob/master/pages/quick-start/react-webpack.md) from TypeScript handbook.
 
 ## Build
-Everything is prebuilt, but in case you want to make changes and rebuild.
 ```
-npm install -g typescript typings webpack
+npm install -g typescript webpack
+npm install
+npm link typescript
 webpack
 ```
 
